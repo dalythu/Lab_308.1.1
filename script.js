@@ -45,4 +45,6 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
 
   // Check five: are all numbers divisible by 5?
-  const isDivisibleBy5 = (11 % 5 === 0); 
+  const isDivisibleBy5 = (n1 % 5 === 0) && (n2 % 5 === 0) && (n3 % 5 === 0) && (n4 % 5 === 0); 
+  console.log(isDivisibleBy5);
+  
