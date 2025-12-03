@@ -47,4 +47,12 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   // Check five: are all numbers divisible by 5?
   const isDivisibleBy5 = (n1 % 5 === 0) && (n2 % 5 === 0) && (n3 % 5 === 0) && (n4 % 5 === 0); 
   console.log(isDivisibleBy5);
+
+  // Is n1 bigger than n4
+  const isN1Bigger = (n1 - n4 > 0);
+  console.log(isN1Bigger);
+
+  const arithmeticChain = ((n2 - n1)*n3)%n4;
+  console.log(arithmeticChain);
+
   
